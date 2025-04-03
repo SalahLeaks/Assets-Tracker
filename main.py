@@ -45,9 +45,9 @@ IMAGE_FORMATS = (".png", ".jpg", ".jpeg", ".webp", ".gif", ".tga", ".bmp")
 # Fortnite MOTD API configuration (with auth)
 API_URL = 'https://prm-dialogue-public-api-prod.edea.live.use1a.on.epicgames.com/api/v1/fortnite-br/channel/motd/target'
 CLIENT_SECRET = 'M2Y2OWU1NmM3NjQ5NDkyYzhjYzI5ZjFhZjA4YThhMTI6YjUxZWU5Y2IxMjIzNGY1MGE2OWVmYTY3ZWY1MzgxMmU='
-DEVICE_ID = '721c9ae137974410a4488e05002feccb'
-SECRET = 'SFBLJ2WDSEPTSYJSSRFQPMVL5WDYBN6G'
-ACCOUNT_ID = 'f8ddb4a666424dca93c2fa8142c947bb'
+DEVICE_ID = 'YOUR_DEVICE_ID'
+SECRET = 'YOUR_DEVICE_SECRET'
+ACCOUNT_ID = 'YOUR_ACCOUNT_ID'
 
 # Load previous assets (for other endpoints)
 def load_previous_assets():
