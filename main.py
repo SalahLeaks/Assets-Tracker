@@ -4,7 +4,7 @@ import aiohttp
 import asyncio
 import json
 import logging
-import base64  # For encoding client credentials
+import base64
 from dotenv import load_dotenv
 from datetime import datetime
 
