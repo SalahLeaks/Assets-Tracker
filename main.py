@@ -198,8 +198,6 @@ async def fetch_fortnite_news(session):
                     if image_urls:
                         chosen_url = list(image_urls)[0]
                         new_assets.add(chosen_url)
-            # Update the stored news hashes to match the current API response,
-            # effectively removing any hashes that no longer exist.
             previous_news_hashes.clear()
             previous_news_hashes.update(current_news_hashes)
         save_previous_news_hashes()
